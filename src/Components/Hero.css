@@ -2,3 +2,15 @@
     display: flex;
     justify-content: space-between;
 }
+.left-h{
+    padding: 1rem;
+    padding-top: 1rem;
+    flex: 1.5;
+    max-width: 75%;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+.right{
+    flex: 1;
+}
