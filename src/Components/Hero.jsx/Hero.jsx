@@ -25,7 +25,7 @@ const Hero = () => {
 </div>
 </div>
 {/* figure */}
-<div className="figure">
+<div className="figures">
   <div>
     <span>+40</span>
     <span>QULIFIED EMPLOYEES</span>
@@ -38,6 +38,11 @@ const Hero = () => {
     <span>+200</span>
     <span>SUCCESS STORIES</span>
     </div>
+</div>
+{/* hero button */}
+<div className="hero-buttons">
+  <button className='btn'>Join now</button>
+  <button className='btn'>learn more</button>
 </div>
         </div>
         <div className='right-h'>right side</div>
