@@ -13,10 +13,15 @@
 }
 .right-h{
     flex: 1;
+    position: relative;
+    background-color: var(--orange);
+    align-items: center;
+    justify-content: center;
+    gap: 1.5;
 }
 .the-best-ad{
     margin-top: 4rem;
-    background-color: grey;
+    background-color: gray;
     border-radius: 4rem;
     width: fit-content;
     padding: 20px 13px;
@@ -76,6 +81,8 @@
     display: flex;
     gap: 1rem;
     font-weight: normal;
+    width: 10rem;
+    height: 3rem;
 }
 .hero-buttons>:nth-child(1){
     color: white;
@@ -89,3 +96,43 @@
     width: 10rem;
     border: 2px solid var(--orange);
 }
+.right-h>btn{
+    position: absolute;
+    right: 3rem;top: 2rem;color: black;
+}
+
+  
+.heart-rate1 {    top: 1rem;
+    left: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    background-color: rgb(78,80,85); /* Dark grey background */
+    width: fit-content;
+    padding: 1rem;
+    align-items: flex-start;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    position: absolute;
+    top: 7rem;  /* Light shadow for effect */
+  }
+.heart-rate1>img{
+    width: 2rem;
+}
+.heart-rate1>span:nth-of-type(1){
+    color: var(--gray);
+}
+.heart-rate1>:nth-child(3){
+    color: white;
+    font-size: 1.5rem;
+}
+hero-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+  
+  
+  
